@@ -3,11 +3,16 @@
 This folder contains scripts and results from querying OPTIMADE APIs for high
 entropy alloy materials (HEA).
 
-The query executed is:
+The client implemented in the
+[optimade-python-tools](https://github.com/Materials-Consortia/optimade-python-tools) library was used to execute the following query:
 
 ```
-elements HAS ANY "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al", "Cd", "Sn", "Pb", "Bi", "Zn", "Ge", "Si", "Sb", "Mg"
-AND NOT elements HAS ANY "B", "C", "Cl", "F", "H", "N", "O", "S", "Se" AND nelements >= 5
+elements HAS ANY
+    "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al", "Cd", "Sn", "Pb", "Bi", "Zn", "Ge", "Si", "Sb", "Mg"
+AND NOT
+    elements HAS ANY "B", "C", "Cl", "F", "H", "N", "O", "S", "Se"
+AND
+    nelements >= 5
 ```
 
 The number of matching entries from each database are given in
