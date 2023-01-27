@@ -22,11 +22,14 @@ jobs:
         cache-dependency-path: |
           **/requirements*.txt
 
-
-    - name: Run HEA example
+    - name: Install dependencies
       working-directory: ./src/high_entropy_alloys_ml
       run: |
         python -m pip install --upgrade pip
         pip install -U setuptools wheel
         pip install -r requirements.txt
+
+    - name: Run HEA example
+      working-directory: ./src/high_entropy_alloys_ml
+      run: |
         python queries.py
