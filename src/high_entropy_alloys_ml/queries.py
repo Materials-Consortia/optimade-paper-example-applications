@@ -31,7 +31,8 @@ nelements >= 5\
         columns=["count"],
         dtype=int,
     )
-    df.to_markdown("results_count_table.md")
+
+    df.to_markdown(Path(__file__).parent / "results_count_table.md")
 
     table = Table(title="Number of OPTIMADE Query Results")
     table.add_column("Number of structures")
