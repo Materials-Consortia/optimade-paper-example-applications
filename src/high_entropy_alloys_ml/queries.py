@@ -2,6 +2,7 @@
 
 if __name__ == "__main__":
     import json
+    from pathlib import Path
 
     import pandas as pd
     from optimade.client import OptimadeClient
@@ -43,7 +44,11 @@ nelements >= 5\
         table.add_row(url, count)
     console.print(table)
 
-    json.dump(has_any_results, open("data/has_any_hea_counts.json", "w"), indent=2)
+    json.dump(
+        has_any_results,
+        (Path(__file__).parent / "data" / "has_any_hea_counts.json").open("w"),
+        indent=2,
+    )
 
     if download_structures:
 
