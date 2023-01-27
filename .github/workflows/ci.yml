@@ -1,0 +1,31 @@
+name: CI tests
+
+on:
+  pull_request:
+  push:
+    - main
+
+jobs:
+
+  hea_example:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+        cache-dependency-path: |
+          requirements*.txt
+
+
+    - name: Run HEA example
+      working_directory: ./src/high_entropy_alloys_ml
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U setuptools wheel
+        pip install -r requirements.txt
+        python queries.py
