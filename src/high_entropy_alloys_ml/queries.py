@@ -36,5 +36,5 @@ nelements >= 5\
             "elements",
             "lattice_vectors",
         ],
-        save_as="data/hea_structures.json",
+        # save_as="data/hea_structures.json",
     )
