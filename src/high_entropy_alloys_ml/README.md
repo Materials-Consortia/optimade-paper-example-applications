@@ -40,6 +40,7 @@ The number of matching entries from each database are given in
 | http://oqmd.org/optimade/                                          |    7784 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
 | http://optimade.2dmatpedia.org                                     |       0 |
+| Total                                                              |    8108 |
 
 The structures returned are available in
 [`./data/hea_structures.json`](./data/hea_structures.json).

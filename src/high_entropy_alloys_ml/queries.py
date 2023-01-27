@@ -32,6 +32,8 @@ nelements >= 5\
         dtype=int,
     )
 
+    df.loc["Total"] = df["count"].sum()
+
     df.to_markdown(Path(__file__).parent / "results_count_table.md")
 
     table = Table(title="Number of OPTIMADE Query Results")

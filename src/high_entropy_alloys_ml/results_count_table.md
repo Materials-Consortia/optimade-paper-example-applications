@@ -17,6 +17,7 @@
 | https://optimade.odbx.science                                      |       0 |
 | https://optimade-misc.odbx.science                                 |     244 |
 | http://optimade.openmaterialsdb.se                                 |       0 |
-| http://oqmd.org/optimade/                                          |     nan |
+| http://oqmd.org/optimade/                                          |    7784 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
 | http://optimade.2dmatpedia.org                                     |       0 |
+| total                                                              |    8108 |
