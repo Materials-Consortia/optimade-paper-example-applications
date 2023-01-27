@@ -1,3 +1,4 @@
 optimade[http_client]
 pandas
 tabulate
+rich

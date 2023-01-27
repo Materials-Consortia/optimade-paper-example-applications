@@ -5,6 +5,12 @@ if __name__ == "__main__":
 
     import pandas as pd
     from optimade.client import OptimadeClient
+    from rich.console import Console
+    from rich.table import Table
+
+    console = Console()
+
+    download_structures = False
 
     client = OptimadeClient()
 
@@ -25,16 +31,30 @@ nelements >= 5\
         dtype=int,
     )
     df.to_markdown("results_count_table.md")
+
+    table = Table(title="Number of OPTIMADE Query Results")
+    table.add_column("Number of structures")
+    table.add_column("Database URL")
+    for url, count in df["count"].items():
+        try:
+            count = str(int(count))
+        except:
+            count = str(count)
+        table.add_row(url, count)
+    console.print(table)
+
     json.dump(has_any_results, open("data/has_any_hea_counts.json", "w"), indent=2)
 
-    has_any_structures = client.get(
-        filter=has_any_filter.strip(),
-        response_fields=[
-            "chemical_formula_reduced",
-            "nsites",
-            "cartesian_site_positions",
-            "elements",
-            "lattice_vectors",
-        ],
-        # save_as="data/hea_structures.json",
-    )
+    if download_structures:
+
+        has_any_structures = client.get(
+            filter=has_any_filter.strip(),
+            response_fields=[
+                "chemical_formula_reduced",
+                "nsites",
+                "cartesian_site_positions",
+                "elements",
+                "lattice_vectors",
+            ],
+            # save_as="data/hea_structures.json",
+        )
