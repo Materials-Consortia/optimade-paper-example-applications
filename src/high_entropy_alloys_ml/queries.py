@@ -20,7 +20,7 @@ elements HAS ANY "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al"
 AND \
 NOT elements HAS ANY "B", "C", "Cl", "F", "H", "N", "O", "S", "Se" \
 AND \
-nelements >= 5\
+nelements >= 4\
 """.strip()
 
     has_any_results = client.count(filter=has_any_filter)
