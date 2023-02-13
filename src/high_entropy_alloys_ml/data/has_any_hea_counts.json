@@ -1,6 +1,6 @@
 {
   "structures": {
-    "elements HAS ANY \"Mn\", \"Cr\", \"Fe\", \"Co\", \"Ni\", \"Cu\", \"Ag\", \"W\", \"Mo\", \"Nb\", \"Al\", \"Cd\", \"Sn\", \"Pb\", \"Bi\", \"Zn\", \"Ge\", \"Si\", \"Sb\", \"Mg\" AND NOT elements HAS ANY \"B\", \"Br\", \"C\", \"Cl\", \"F\", \"H\", \"N\", \"O\", \"P\", \"S\", \"Se\" AND nelements >= 5": {
+    "elements HAS ANY \"Mn\", \"Cr\", \"Fe\", \"Co\", \"Ni\", \"Cu\", \"Ag\", \"W\", \"Mo\", \"Nb\", \"Al\", \"Cd\", \"Sn\", \"Pb\", \"Bi\", \"Zn\", \"Ge\", \"Si\", \"Sb\", \"Mg\" AND NOT elements HAS ANY \"B\", \"Br\", \"C\", \"Cl\", \"F\", \"H\", \"I\", \"N\", \"O\", \"P\", \"S\", \"Se\" AND nelements >= 5": {
       "http://aflow.org/API/optimade/": 2,
       "https://www.crystallography.net/cod/optimade": 37,
       "https://aiida.materialscloud.org/mc3d/optimade": 2,
@@ -14,7 +14,7 @@
       "https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade": 0,
       "https://optimade.materialsproject.org": 8,
       "https://api.mpds.io": null,
-      "https://nomad-lab.eu/prod/rae/optimade/": 21,
+      "https://nomad-lab.eu/prod/rae/optimade/": 18,
       "https://optimade.odbx.science": 0,
       "https://optimade-misc.odbx.science": 12,
       "http://optimade.openmaterialsdb.se": 0,

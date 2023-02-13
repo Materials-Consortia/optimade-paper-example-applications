@@ -13,11 +13,11 @@
 | https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade |       0 |
 | https://optimade.materialsproject.org                              |       8 |
 | https://api.mpds.io                                                |     nan |
-| https://nomad-lab.eu/prod/rae/optimade/                            |      21 |
+| https://nomad-lab.eu/prod/rae/optimade/                            |      18 |
 | https://optimade.odbx.science                                      |       0 |
 | https://optimade-misc.odbx.science                                 |      12 |
 | http://optimade.openmaterialsdb.se                                 |       0 |
 | http://oqmd.org/optimade/                                          |    7555 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
 | http://optimade.2dmatpedia.org                                     |       0 |
-| Total                                                              |    7637 |
+| Total                                                              |    7634 |

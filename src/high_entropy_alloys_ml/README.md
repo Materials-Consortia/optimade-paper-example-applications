@@ -10,7 +10,7 @@ The client implemented in the
 elements HAS ANY
     "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al", "Cd", "Sn", "Pb", "Bi", "Zn", "Ge", "Si", "Sb", "Mg"
 AND NOT
-    elements HAS ANY "B", "Br", "C", "Cl", "F", "H", "N", "O", "P", "S", "Se"
+    elements HAS ANY "B", "Br", "C", "Cl", "F", "H", "I", "N", "O", "P", "S", "Se"
 AND
     nelements >= 5
 ```
@@ -33,14 +33,14 @@ The number of matching entries from each database are given in
 | https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade |       0 |
 | https://optimade.materialsproject.org                              |       8 |
 | https://api.mpds.io                                                |     nan |
-| https://nomad-lab.eu/prod/rae/optimade/                            |      21 |
+| https://nomad-lab.eu/prod/rae/optimade/                            |      18 |
 | https://optimade.odbx.science                                      |       0 |
 | https://optimade-misc.odbx.science                                 |      12 |
 | http://optimade.openmaterialsdb.se                                 |       0 |
 | http://oqmd.org/optimade/                                          |    7555 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
 | http://optimade.2dmatpedia.org                                     |       0 |
-| Total                                                              |    7637 |
+| Total                                                              |    7634 |
 
 The structures returned are available in
 [`./data/hea_structures.json`](./data/hea_structures.json).
