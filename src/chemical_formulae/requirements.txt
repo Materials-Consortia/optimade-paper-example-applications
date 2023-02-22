@@ -1,4 +1,4 @@
-optimade[http_client]
+optimade[http_client]>=0.21
 pandas
 tabulate
 rich
