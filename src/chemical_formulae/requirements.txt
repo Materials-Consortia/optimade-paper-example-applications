@@ -2,3 +2,6 @@ optimade[http_client]>=0.21
 pandas
 tabulate
 rich
+umap-learn
+chem_wasserstein
+pymongo

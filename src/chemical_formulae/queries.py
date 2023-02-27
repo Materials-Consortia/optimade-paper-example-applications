@@ -8,6 +8,7 @@ if __name__ == "__main__":
     client = pm.MongoClient("mongodb://localhost:27017/optimade_example")
     collection = client.optimade_example.structures
     collection.create_index("immutable_id", unique=True)
+    collection.create_index("prefix")
 
     def insert_into_mongo(url, results):
         """Inserts data into a MongoDB collection."""
@@ -25,7 +26,7 @@ if __name__ == "__main__":
     download_structures = False
 
     client = OptimadeClient(
-        exclude_providers=["nmd"],
+        include_providers=["aflow"],
         max_results_per_provider=-1,
         callbacks=[insert_into_mongo],
     )
