@@ -12,7 +12,7 @@ elements HAS ANY
 AND NOT
     elements HAS ANY "B", "Br", "C", "Cl", "F", "H", "I", "N", "O", "P", "S", "Se"
 AND
-    nelements >= 5
+    nelements >= 4
 ```
 
 The number of matching entries from each database are given in
@@ -20,10 +20,10 @@ The number of matching entries from each database are given in
 
 |                                                                    |   count |
 |:-------------------------------------------------------------------|--------:|
-| http://aflow.org/API/optimade/                                     |       2 |
-| https://www.crystallography.net/cod/optimade                       |      37 |
-| https://aiida.materialscloud.org/mc3d/optimade                     |       2 |
-| https://aiida.materialscloud.org/mc2d/optimade                     |       0 |
+| http://aflow.org/API/optimade/                                     |     nan |
+| https://www.crystallography.net/cod/optimade                       |    1297 |
+| https://aiida.materialscloud.org/mc3d/optimade                     |     234 |
+| https://aiida.materialscloud.org/mc2d/optimade                     |     191 |
 | https://aiida.materialscloud.org/2dtopo/optimade                   |       0 |
 | https://aiida.materialscloud.org/tc-applicability/optimade         |       0 |
 | https://aiida.materialscloud.org/pyrene-mofs/optimade              |       0 |
@@ -31,7 +31,7 @@ The number of matching entries from each database are given in
 | https://aiida.materialscloud.org/stoceriaitf/optimade              |       0 |
 | https://aiida.materialscloud.org/autowannier/optimade              |       0 |
 | https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade |       0 |
-| https://optimade.materialsproject.org                              |       8 |
+| https://optimade.materialsproject.org                              |    1197 |
 | https://api.mpds.io                                                |     nan |
 | https://nomad-lab.eu/prod/rae/optimade/                            |      18 |
 | https://optimade.odbx.science                                      |       0 |

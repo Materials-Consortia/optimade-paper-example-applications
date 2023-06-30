@@ -1,9 +1,9 @@
 |                                                                    |   count |
 |:-------------------------------------------------------------------|--------:|
-| http://aflow.org/API/optimade/                                     |       2 |
-| https://www.crystallography.net/cod/optimade                       |      37 |
-| https://aiida.materialscloud.org/mc3d/optimade                     |       2 |
-| https://aiida.materialscloud.org/mc2d/optimade                     |       0 |
+| http://aflow.org/API/optimade/                                     |     nan |
+| https://www.crystallography.net/cod/optimade                       |    1297 |
+| https://aiida.materialscloud.org/mc3d/optimade                     |     234 |
+| https://aiida.materialscloud.org/mc2d/optimade                     |     191 |
 | https://aiida.materialscloud.org/2dtopo/optimade                   |       0 |
 | https://aiida.materialscloud.org/tc-applicability/optimade         |       0 |
 | https://aiida.materialscloud.org/pyrene-mofs/optimade              |       0 |
@@ -11,13 +11,14 @@
 | https://aiida.materialscloud.org/stoceriaitf/optimade              |       0 |
 | https://aiida.materialscloud.org/autowannier/optimade              |       0 |
 | https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade |       0 |
-| https://optimade.materialsproject.org                              |       8 |
+| https://optimade.materialsproject.org                              |    1197 |
 | https://api.mpds.io                                                |     nan |
-| https://nomad-lab.eu/prod/rae/optimade/                            |      18 |
+| https://nomad-lab.eu/prod/rae/optimade/                            |  796883 |
 | https://optimade.odbx.science                                      |       0 |
-| https://optimade-misc.odbx.science                                 |      12 |
-| http://optimade.openmaterialsdb.se                                 |       0 |
-| http://oqmd.org/optimade/                                          |    7555 |
+| https://optimade-misc.odbx.science                                 |    2934 |
+| http://optimade.openmaterialsdb.se                                 |      84 |
+| http://oqmd.org/optimade/                                          |  153970 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
-| http://optimade.2dmatpedia.org                                     |       0 |
-| Total                                                              |    7634 |
+| http://optimade.2dmatpedia.org                                     |       1 |
+| Total                                                              |  956791 |
+
