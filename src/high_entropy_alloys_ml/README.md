@@ -10,7 +10,7 @@ The client implemented in the
 elements HAS ANY
     "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al", "Cd", "Sn", "Pb", "Bi", "Zn", "Ge", "Si", "Sb", "Mg"
 AND NOT
-    elements HAS ANY "B", "C", "Cl", "F", "H", "N", "O", "S", "Se"
+    elements HAS ANY "B", "Br", "C", "Cl", "F", "H", "I", "N", "O", "P", "S", "Se"
 AND
     nelements >= 4
 ```
@@ -33,14 +33,14 @@ The number of matching entries from each database are given in
 | https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade |       0 |
 | https://optimade.materialsproject.org                              |    1197 |
 | https://api.mpds.io                                                |     nan |
-| https://nomad-lab.eu/prod/rae/optimade/                            |  796883 |
+| https://nomad-lab.eu/prod/rae/optimade/                            |      18 |
 | https://optimade.odbx.science                                      |       0 |
-| https://optimade-misc.odbx.science                                 |    2934 |
-| http://optimade.openmaterialsdb.se                                 |      84 |
-| http://oqmd.org/optimade/                                          |  153970 |
+| https://optimade-misc.odbx.science                                 |      12 |
+| http://optimade.openmaterialsdb.se                                 |       0 |
+| http://oqmd.org/optimade/                                          |    7555 |
 | https://www.crystallography.net/tcod/optimade                      |       0 |
-| http://optimade.2dmatpedia.org                                     |       1 |
-| Total                                                              |  956791 |
+| http://optimade.2dmatpedia.org                                     |       0 |
+| Total                                                              |    7634 |
 
 The structures returned are available in
 [`./data/hea_structures.json`](./data/hea_structures.json).
@@ -51,3 +51,5 @@ These results can be reproduced with:
 pip install -r requirements.txt
 python queries.py
 ```
+
+Additionally, see the results of this query on the [web-client](https://optimade.science/?filter=elements%20HAS%20ANY%20%22Mn%22,%20%22Cr%22,%20%22Fe%22,%20%22Co%22,%20%22Ni%22,%20%22Cu%22,%20%22Ag%22,%20%22W%22,%20%22Mo%22,%20%22Nb%22,%20%22Al%22,%20%22Cd%22,%20%22Sn%22,%20%22Pb%22,%20%22Bi%22,%20%22Zn%22,%20%22Ge%22,%20%22Si%22,%20%22Sb%22,%20%22Mg%22%20AND%20NOT%20elements%20HAS%20ANY%20%22B%22,%20%22C%22,%20%22Cl%22,%20%22F%22,%20%22H%22,%20%22N%22,%20%22O%22,%20%22S%22,%20%22Se%22%20AND%20nelements%20%3E=%205).
