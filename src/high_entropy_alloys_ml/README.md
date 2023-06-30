@@ -51,3 +51,5 @@ These results can be reproduced with:
 pip install -r requirements.txt
 python queries.py
 ```
+
+Additionally, see the results of this query on the [web-client](https://optimade.science/?filter=elements%20HAS%20ANY%20%22Mn%22,%20%22Cr%22,%20%22Fe%22,%20%22Co%22,%20%22Ni%22,%20%22Cu%22,%20%22Ag%22,%20%22W%22,%20%22Mo%22,%20%22Nb%22,%20%22Al%22,%20%22Cd%22,%20%22Sn%22,%20%22Pb%22,%20%22Bi%22,%20%22Zn%22,%20%22Ge%22,%20%22Si%22,%20%22Sb%22,%20%22Mg%22%20AND%20NOT%20elements%20HAS%20ANY%20%22B%22,%20%22C%22,%20%22Cl%22,%20%22F%22,%20%22H%22,%20%22N%22,%20%22O%22,%20%22S%22,%20%22Se%22%20AND%20nelements%20%3E=%205).
