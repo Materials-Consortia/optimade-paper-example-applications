@@ -77,5 +77,5 @@ algorithm_param = {'max_num_iteration': 3000,\
                    'crossover_type':'uniform',\
                    'max_iteration_without_improv':None}
 
-model=ga(function=fitnessFunc,dimension=len(hasList),variable_type='bool', function_timeout = client.http_timeout*1.5, algorithm_parameters=algorithm_param)
+model=ga(function=fitnessFunc,dimension=len(hasList),variable_type='bool', function_timeout = timeOut*1.5, algorithm_parameters=algorithm_param)
 model.run()
