@@ -18,9 +18,9 @@ if __name__ == "__main__":
     has_any_filter = """\
 elements HAS ANY "Mn", "Cr", "Fe", "Co", "Ni", "Cu", "Ag", "W", "Mo", "Nb", "Al", "Cd", "Sn", "Pb", "Bi", "Zn", "Ge", "Si", "Sb", "Mg" \
 AND \
-NOT elements HAS ANY "B", "C", "Cl", "F", "H", "N", "O", "S", "Se" \
+NOT elements HAS ANY "B", "Br", "C", "Cl", "F", "H", "I", "N", "O", "P", "S", "Se" \
 AND \
-nelements >= 5\
+nelements >= 4\
 """.strip()
 
     has_any_results = client.count(filter=has_any_filter)
